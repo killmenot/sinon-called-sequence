@@ -1,0 +1,20 @@
+language: node_js
+
+node_js:
+  # https://github.com/nodejs/LTS
+  - "4" # ends April 2018
+  - "6" # ends April 2019
+  - "8" # ends December 2019
+
+sudo: false
+
+cache:
+  directories:
+  - node_modules
+
+after_success:
+  - npm run coverage:unit
+  - npm run coveralls
+
+git:
+  depth: 10
