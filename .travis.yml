@@ -13,7 +13,7 @@ cache:
   - node_modules
 
 after_success:
-  - npm run coverage:unit
+  - npm run coverage
   - npm run coveralls
 
 git:
