@@ -1,5 +1,6 @@
 # Sinon called sequence
 
+[![npm version](https://badge.fury.io/js/sinon-called-sequence.svg)](https://badge.fury.io/js/sinon-called-sequence)
 [![Dependency Status](https://gemnasium.com/badges/github.com/killmenot/sinon-called-sequence.svg)](https://gemnasium.com/github.com/killmenot/sinon-called-sequence)
 [![Build Status](https://travis-ci.org/killmenot/sinon-called-sequence.svg?branch=master)](https://travis-ci.org/killmenot/sinon-called-sequence)
 [![Coverage Status](https://coveralls.io/repos/github/killmenot/sinon-called-sequence/badge.svg?branch=master)](https://coveralls.io/github/killmenot/sinon-called-sequence?branch=master)
