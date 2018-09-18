@@ -1,9 +1,9 @@
 # Sinon called sequence
 
-[![npm version](https://badge.fury.io/js/sinon-called-sequence.svg)](https://badge.fury.io/js/sinon-called-sequence)
-[![Dependency Status](https://gemnasium.com/badges/github.com/killmenot/sinon-called-sequence.svg)](https://gemnasium.com/github.com/killmenot/sinon-called-sequence)
 [![Build Status](https://travis-ci.org/killmenot/sinon-called-sequence.svg?branch=master)](https://travis-ci.org/killmenot/sinon-called-sequence)
+[![Dependency Status](https://david-dm.org/killmenot/sinon-called-sequence.svg)](https://david-dm.org/killmenot/sinon-called-sequence)
 [![Coverage Status](https://coveralls.io/repos/github/killmenot/sinon-called-sequence/badge.svg?branch=master)](https://coveralls.io/github/killmenot/sinon-called-sequence?branch=master)
+[![npm version](https://img.shields.io/npm/v/sinon-called-sequence.svg)](https://www.npmjs.com/package/sinon-called-sequence)
 
 Patch [sinon](https://sinonjs.org "sinon") to provide methods that allows to check spy invocation with called before/after sequence of spies.
 
@@ -14,6 +14,10 @@ Patch [sinon](https://sinonjs.org "sinon") to provide methods that allows to che
 npm i sinon sinon-called-sequence --save-dev
 ```
 
+## Requirements
+```
+sinon >=2.1.0 < 5
+```
 
 ## How to use?
 

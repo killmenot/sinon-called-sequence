@@ -2,19 +2,22 @@ language: node_js
 
 node_js:
   # https://github.com/nodejs/LTS
-  - "4" # ends April 2018
-  - "6" # ends April 2019
-  - "8" # ends December 2019
+  - "4"  # ends April 2018
+  - "6"  # ends April 2019
+  - "8"  # ends December 2019
+  - "10" # endsApril 2021
 
 sudo: false
+
+env:
+  - SINON_VERSION=^2.0.0
+  - SINON_VERSION=^3.0.0
+  - SINON_VERSION=^4.0.0
 
 cache:
   directories:
   - node_modules
 
 after_success:
-  - npm run coverage
+  - npm run coverage-travis
   - npm run coveralls
-
-git:
-  depth: 10
