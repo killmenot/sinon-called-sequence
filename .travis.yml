@@ -2,7 +2,6 @@ language: node_js
 
 node_js:
   # https://github.com/nodejs/LTS
-  - "4"  # ends April 2018
   - "6"  # ends April 2019
   - "8"  # ends December 2019
   - "10" # endsApril 2021
@@ -10,9 +9,8 @@ node_js:
 sudo: false
 
 env:
-  - SINON_VERSION=^2.0.0
-  - SINON_VERSION=^3.0.0
-  - SINON_VERSION=^4.0.0
+  - SINON_VERSION=^5.0.0
+  - SINON_VERSION=^6.0.0
 
 cache:
   directories:

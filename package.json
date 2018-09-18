@@ -14,18 +14,22 @@
     "called immediately after sequence"
   ],
   "main": "index.js",
+  "engines": {
+    "node": ">= 6",
+    "npm": ">= 3.8.6"
+  },
   "license": "MIT",
   "author": {
     "name": "Alexey Kucherenko",
     "url": "https://github.com/killmenot"
   },
-  "homepage": "https://github.com/killmenot/jasmine-spy-matchers#readme",
+  "homepage": "https://github.com/killmenot/sinon-called-sequence#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:killmenot/jasmine-spy-matchers.git"
+    "url": "git@github.com:killmenot/sinon-called-sequence.git"
   },
   "bugs": {
-    "url": "https://github.com/killmenot/jasmine-spy-matchers/issues"
+    "url": "https://github.com/killmenot/sinon-called-sequence/issues"
   },
   "scripts": {
     "lint": "jshint lib test",
@@ -55,9 +59,9 @@
     "pre-commit": "^1.2.2",
     "should": "^13.2.3",
     "should-sinon": "0.0.6",
-    "sinon": "^4.5.0"
+    "sinon": "^6.3.4"
   },
   "peerDependencies": {
-    "sinon": ">=2.1.0 < 5"
+    "sinon": ">=5"
   }
 }

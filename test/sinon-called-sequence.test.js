@@ -13,7 +13,7 @@ describe('sinon called sequence', () => {
   let spy4;
 
   beforeEach(() => {
-    sandbox = sinon.sandbox.create();
+    sandbox = sinon.createSandbox();
 
     spy1 = sandbox.spy();
     spy2 = sandbox.spy();

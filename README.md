@@ -15,9 +15,9 @@ npm i sinon sinon-called-sequence --save-dev
 ```
 
 ## Requirements
-```
-sinon >=2.1.0 < 5
-```
+ - Node.js 6+
+ - Sinon >=5
+
 
 ## How to use?
 
