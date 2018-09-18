@@ -1,6 +1,6 @@
 {
   "name": "sinon-called-sequence",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Patch sinon to provide methods that allows to check spy invocation with called before/after sequence of spies",
   "keywords": [
     "sinon",
@@ -14,6 +14,10 @@
     "called immediately after sequence"
   ],
   "main": "index.js",
+  "engines": {
+    "node": ">= 4",
+    "npm": ">= 2.14.3"
+  },
   "license": "MIT",
   "author": {
     "name": "Alexey Kucherenko",
